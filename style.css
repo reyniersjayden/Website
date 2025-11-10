@@ -1,0 +1,61 @@
+body {
+  margin: 0; /* Verwijdert standaard marges */
+  padding: 0; /* Verwijdert standaard opvulling */
+  color: white; /* Tekstkleur wit */
+  background-image: url("images/yungblud-home-background.jpg"); /* Achtergrondafbeelding */
+  background-size: cover; /* Past afbeelding aan over hele achtergrond */
+  background-position: center; /* Centreert achtergrond */
+  display: flex; /* Flexbox lay-out */
+  flex-direction: column; /* Elementen onder elkaar */
+  justify-content: center; /* Centreert verticaal */
+  align-items: center; /* Centreert horizontaal */
+  min-height: 100vh; /* Volledige hoogte van scherm */
+}
+
+.container {
+  text-align: center; /* Centreert tekst */
+  background-color: transparent; /* Geen achtergrondkleur */
+  padding: 0; /* Geen binnenruimte */
+  border-radius: 0; /* Geen afgeronde hoeken */
+  border: none; /* Geen rand */
+  width: 90%; /* 90% van breedte */
+  max-width: 700px; /* Max breedte 700px */
+  position: relative; /* Nodig voor absolute positionering binnenin */
+}
+
+.center-image {
+  width: 90%; /* Iets kleinere afbeelding */
+  border-radius: 15px; /* Afgeronde hoeken */
+  display: block; /* Blokweergave */
+  margin: 0 auto; /* Centreert afbeelding */
+}
+
+.button-container {
+  position: absolute; /* Plaatst over afbeelding */
+  bottom: 30px; /* Afstand van onderkant */
+  left: 50%; /* Centreert horizontaal */
+  transform: translateX(-50%); /* Perfecte centrering */
+  display: flex; /* Flexbox voor knoppen */
+  justify-content: center; /* Centreert knoppen */
+  gap: 20px; /* Ruimte tussen knoppen */
+}
+
+.btn {
+  background-color: #ff0000; /* Rode knop */
+  color: white; /* Witte tekst */
+  text-decoration: none; /* Geen onderlijn */
+  padding: 12px 28px; /* Binnenruimte */
+  border-radius: 10px; /* Afgeronde randen */
+  font-weight: bold; /* Dikke tekst */
+  transition: 0.3s ease; /* Animatie bij hover */
+  display: inline-block; /* Voor juiste knopvorm */
+}
+
+.btn:hover {
+  background-color: white; /* Achtergrond verandert bij hover */
+  color: #ff0000; /* Tekst wordt rood bij hover */
+}
+
+a:hover {
+  text-decoration: underline; /* Onderstreept links bij hover */
+}

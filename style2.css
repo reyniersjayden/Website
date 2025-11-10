@@ -1,0 +1,88 @@
+body {
+  background-image: url("images/yungblud-bio-background.jpg"); /* Achtergrondafbeelding */
+  background-size: cover; /* Bedekt hele achtergrond */
+  background-position: center; /* Centreert afbeelding */
+  color: white; /* Witte tekstkleur */
+  margin: 0; /* Geen buitenruimte */
+  padding: 0; /* Geen binnenruimte */
+}
+
+header {
+  background-color: black; /* Zwarte balk bovenaan */
+  text-align: center; /* Tekst gecentreerd */
+  padding: 15px; /* Binnenruimte */
+}
+
+h1 {
+  color: rgb(0, 157, 255); /* Blauwe titel */
+  margin: 0; /* Geen marge */
+}
+
+h2 {
+  color: white; /* Witte subtitel */
+  margin: 5px 0 15px 0; /* Ruimte boven/onder */
+}
+
+.button-top {
+  margin-bottom: 10px; /* Ruimte onder knoppen bovenaan */
+}
+
+.btn {
+  background-color: rgb(25, 0, 255); /* Blauwe knop */
+  color: white; /* Witte tekst */
+  text-decoration: none; /* Geen onderlijn */
+  padding: 8px 16px; /* Binnenruimte knop */
+  border-radius: 8px; /* Afgeronde hoeken */
+}
+
+.btn:hover {
+  background-color: rgb(0, 217, 255); /* Lichtblauw bij hover */
+  color: rgb(0, 0, 0); /* Zwarte tekst bij hover */
+}
+
+main {
+  background-color: rgba(23, 53, 72, 0.8); /* Donkere transparante achtergrond */
+  width: 90%; /* 90% breedte */
+  max-width: 900px; /* Max breedte */
+  margin: 20px auto; /* Centreert blok */
+  padding: 20px; /* Binnenruimte */
+  border-radius: 10px; /* Afgeronde hoeken */
+}
+
+.bio-image {
+  width: 250px; /* Grootte van afbeelding */
+  border: 2px solid rgb(55, 0, 255); /* Blauwe rand */
+  border-radius: 10px; /* Afgeronde hoeken */
+  display: block; /* Blokweergave */
+  margin: 0 auto 20px auto; /* Gecentreerd met ruimte eronder */
+}
+
+h3 {
+  color: rgb(0, 128, 255); /* Lichtere blauwe subtitels */
+}
+
+p {
+  line-height: 1.5em; /* Regelafstand */
+  margin-bottom: 15px; /* Ruimte tussen alinea’s */
+}
+
+footer {
+  text-align: center; /* Tekst gecentreerd */
+  color: #000000; /* Zwarte tekst */
+  font-size: 0.9em; /* Iets kleinere tekst */
+  margin: 20px 0; /* Ruimte boven/onder */
+}
+
+table {
+  width: 90%; /* 90% van breedte */
+  margin: 20px auto; /* Centreert tabel */
+  border-collapse: collapse; /* Verwijdert ruimte tussen randen */
+  background-color: rgba(0, 0, 0, 0.7); /* Donkere achtergrond */
+  color: white; /* Witte tekst */
+}
+
+th, td {
+  border: 1px solid white; /* Witte randen */
+  text-align: center; /* Tekst in het midden */
+  padding: 15px; /* Binnenruimte cellen */
+}
